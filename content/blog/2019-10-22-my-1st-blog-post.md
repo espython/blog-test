@@ -5,6 +5,6 @@ description: woooooooooooooooohooooooooooo
 ---
 
 
-```js
-console.log()
+```JS
+console.log('hello world')
 ```
