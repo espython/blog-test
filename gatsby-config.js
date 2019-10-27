@@ -60,7 +60,7 @@ module.exports = {
                 codeFenceOptions      //   - any options set on the code fence alongside the language (more on this later)
               }) => '',
               extensionDataDirectory: // Absolute path to the directory where extensions will be downloaded. Defaults to inside node_modules.
-                path.resolve(__dirname, 'node_modules'),
+                path.resolve('node_modules'),
               logLevel: 'error'       // Set to 'warn' to debug if something looks wrong
             }
           }
